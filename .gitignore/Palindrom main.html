@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Palin {
+
+	public static void main(String[] args) {
+		 Scanner input = new Scanner(System.in);
+		 
+		 System.out.print("Enter the word");
+		 String s = input.next();
+		 
+		System.out.println( PAL.reverse(s));
+		
+		if (PAL.palindrom (s)) 
+			System.out.print("the word is palindrom");
+		else 
+			System.out.print("The word isnt palindrom");
+
+	}
+
+}
